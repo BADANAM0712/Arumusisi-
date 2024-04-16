@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/BLACKLOVER15/BLACK_MUSIC",
+    "https://github.com/BADANAM0712/Arumusisi-/tree/main/SHUKLAMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/QuizBot_All_Exam")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Exampur15")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/frind_x_zone")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/frind_x_zone")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -141,10 +141,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/a80d3a39309667d8ecb83.png"
+    "START_IMG_URL", "https://telegra.ph/file/7f1bbcd9c70368eb5eb9f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/a80d3a39309667d8ecb83.png"
+    "PING_IMG_URL", "https://telegra.ph/file/7f1bbcd9c70368eb5eb9f.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
