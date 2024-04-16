@@ -67,8 +67,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text="🥀 owner 🥀", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="🍃 support 🍃", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="❤️‍🔥 𝗼𝘄𝗲𝗻𝗿 ❤️‍🔥", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="🍃𝙎𝙐𝙋𝙋𝙊𝙍𝙏 🍃", url=f"{SUPPORT_CHAT}",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -84,8 +84,8 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text="🥀 owner 🥀", user_id=config.OWNER_ID),
-         InlineKeyboardButton(text="🍃 support 🍃", url=f"{SUPPORT_CHAT}",),
+         InlineKeyboardButton(text="❤️‍🔥𝗼𝘄𝗲𝗻𝗿❤️‍🔥 ", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="🍃 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 🍃", url=f"{SUPPORT_CHAT}",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
